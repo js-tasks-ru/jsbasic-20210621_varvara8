@@ -18,8 +18,9 @@ function print(text) {
  * @returns {boolean}
  */
 function isValid(name) {
-  // ваш код...
-}
+  
+
+ }
 
 /**
  * Эту функцию трогать не нужно
