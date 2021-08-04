@@ -14,7 +14,6 @@ export default class Cart {
 
   addProduct(product) {
     const currentItem;
-    debugger;
     currentItem = this.cartItems.findIndex(() => {
       return this.cartItems.product.id == product.id;
     });
@@ -32,7 +31,6 @@ export default class Cart {
 
   updateProductCount(productId, amount) {
     const currentItem;
-    debugger;
     currentItem = this.cartItems.findIndex (() => {
       return this.product.id == productId;
     });
